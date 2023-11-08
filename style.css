@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 40px 0px;
+    background-color:rgb(25, 25, 36);
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    color: aliceblue;
+}
+.two{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(45, 45, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+  
+}
+.two h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 900px;
+}
+.two p{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+}
+.buttons button{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.third{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.third h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 450px;
+}
+.third p{
+    color: rgb(65, 63, 63);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+    margin-right: 75px;
+}
+.four{
+    width: 100%;
+    height: 300px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.four h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 350px;
+}
+.four h4{
+    color: rgb(54, 53, 53);
+   
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+}
+.four p{
+    color: rgb(54, 53, 53);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 200px;
+}
+.five{
+    width: 100%;
+    height: 300px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.five h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 550px;
+}
+.five h4 {
+    color: rgb(54, 53, 53);
+    font-weight: bold;
+    text-align: center;
+    width: 700px;
+}
+.six{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(35, 41, 41);
+}
+.six p{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
